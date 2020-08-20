@@ -126,6 +126,16 @@
                     <argLine>
                          -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.8.5/aspectjweaver-1.8.5.jar"
                     </argLine>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>./testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+
+                    <properties>
+                        <property>
+                            <name>usedefaultlisteners</name>
+                            <value>false</value>
+                        </property>
+                    </properties>
                     <workingDirectory>target/</workingDirectory>
                 </configuration>
                 <dependencies>
