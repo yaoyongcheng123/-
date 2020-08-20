@@ -126,6 +126,7 @@
                     <argLine>
                          -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.8.5/aspectjweaver-1.8.5.jar"
                     </argLine>
+                    <workingDirectory>target/</workingDirectory>
                 </configuration>
                 <dependencies>
                     <dependency>
@@ -134,6 +135,7 @@
                         <version>1.8.5</version>
                     </dependency>
                 </dependencies>
+
             </plugin>
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
