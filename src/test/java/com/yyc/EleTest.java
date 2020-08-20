@@ -10,6 +10,7 @@ import com.yyc.utils.Snapshot;
 import org.apache.log4j.Logger;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -22,7 +23,6 @@ public class EleTest {
         driver.get("file:///C:/Users/Administrator/Desktop/selenium_html/index.html");
         IndexServer.sendText(EleIndex.INPUT,"哈哈哈！！");
         Snapshot.snapshot(MathRandom.getRandName());
-
         Asserts.assertEquals("122","122");
     }
 
@@ -31,16 +31,16 @@ public class EleTest {
         Asserts.assertEquals("124","124");
     }
 
-    public static void main(String[] args) {
-//        PropertyConfigurator.configure( "D:\\project\\ahnx\\jnyd\\jnyd\\webDriverFrame\\src\\log4j.properties");
-//        DOMConfigurator.configure("D:\\project\\ahnx\\jnyd\\jnyd\\webDriverFrame\\src\\config\\log4j.properties");
-//        BasicConfigurator.configure();
-        logger.info("aaaa");
-
-        logger.debug("bbbb");
-
-        logger.error("cccc");
-    }
+//    public static void main(String[] args) {
+////        PropertyConfigurator.configure( "D:\\project\\ahnx\\jnyd\\jnyd\\webDriverFrame\\src\\log4j.properties");
+////        DOMConfigurator.configure("D:\\project\\ahnx\\jnyd\\jnyd\\webDriverFrame\\src\\config\\log4j.properties");
+////        BasicConfigurator.configure();
+//        logger.info("aaaa");
+//
+//        logger.debug("bbbb");
+//
+//        logger.error("cccc");
+//    }
 
 
     @DataProvider(name = "add")
