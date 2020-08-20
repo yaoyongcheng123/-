@@ -1,0 +1,100 @@
+2020-08-08 22:07:18,380 INFO main [com.yyc.EleTest]main(line:32)aaaa
+2020-08-08 22:07:18,384 DEBUG main [com.yyc.EleTest]main(line:34)bbbb
+2020-08-08 22:07:18,384 ERROR main [com.yyc.EleTest]main(line:36)cccc
+2020-08-08 22:12:54,812 INFO main [com.yyc.EleTest]main(line:32)aaaa
+2020-08-08 22:12:54,828 DEBUG main [com.yyc.EleTest]main(line:34)bbbb
+2020-08-08 22:12:54,828 ERROR main [com.yyc.EleTest]main(line:36)cccc
+2020-08-12 11:01:21,634 INFO main [com.yyc.EleTest]main(line:31)aaaa
+2020-08-12 11:01:21,637 DEBUG main [com.yyc.EleTest]main(line:33)bbbb
+2020-08-12 11:01:21,638 ERROR main [com.yyc.EleTest]main(line:35)cccc
+2020-08-12 11:01:27,753 INFO main [com.yyc.EleTest]main(line:31)aaaa
+2020-08-12 11:01:27,757 DEBUG main [com.yyc.EleTest]main(line:33)bbbb
+2020-08-12 11:01:27,757 ERROR main [com.yyc.EleTest]main(line:35)cccc
+2020-08-12 11:01:44,705 INFO main [com.yyc.EleTest]main(line:31)aaaa
+2020-08-12 11:01:44,709 DEBUG main [com.yyc.EleTest]main(line:33)bbbb
+2020-08-12 11:01:44,709 ERROR main [com.yyc.EleTest]main(line:35)cccc
+2020-08-12 14:49:45,155 INFO main [com.yyc.EleTest]main(line:31)aaaa
+2020-08-12 14:49:45,163 DEBUG main [com.yyc.EleTest]main(line:33)bbbb
+2020-08-12 14:49:45,164 ERROR main [com.yyc.EleTest]main(line:35)cccc
+2020-08-13 16:16:24,448 DEBUG main [org.apache.http.impl.conn.SingleClientConnManager]getConnection(line:195)Get connection for route HttpRoute[{}->http://localhost:8080]
+2020-08-13 16:16:24,596 DEBUG main [org.apache.http.client.protocol.RequestAddCookies]process(line:131)CookieSpec selected: best-match
+2020-08-13 16:16:24,607 DEBUG main [org.apache.http.impl.client.DefaultHttpClient]execute(line:481)Attempt 1 to execute request
+2020-08-13 16:16:24,608 DEBUG main [org.apache.http.impl.conn.DefaultClientConnection]sendRequestHeader(line:250)Sending request: GET /test?name=aaa&age=111 HTTP/1.1
+2020-08-13 16:16:24,609 DEBUG main [org.apache.http.wire]wire(line:78)>> "GET /test?name=aaa&age=111 HTTP/1.1[EOL]"
+2020-08-13 16:16:24,610 DEBUG main [org.apache.http.wire]wire(line:78)>> "Host: localhost:8080[EOL]"
+2020-08-13 16:16:24,611 DEBUG main [org.apache.http.wire]wire(line:78)>> "Connection: Keep-Alive[EOL]"
+2020-08-13 16:16:24,612 DEBUG main [org.apache.http.wire]wire(line:78)>> "User-Agent: Apache-HttpClient/4.0.2 (java 1.5)[EOL]"
+2020-08-13 16:16:24,613 DEBUG main [org.apache.http.wire]wire(line:78)>> "[EOL]"
+2020-08-13 16:16:24,613 DEBUG main [org.apache.http.headers]sendRequestHeader(line:254)>> GET /test?name=aaa&age=111 HTTP/1.1
+2020-08-13 16:16:24,614 DEBUG main [org.apache.http.headers]sendRequestHeader(line:257)>> Host: localhost:8080
+2020-08-13 16:16:24,615 DEBUG main [org.apache.http.headers]sendRequestHeader(line:257)>> Connection: Keep-Alive
+2020-08-13 16:16:24,616 DEBUG main [org.apache.http.headers]sendRequestHeader(line:257)>> User-Agent: Apache-HttpClient/4.0.2 (java 1.5)
+2020-08-13 16:16:24,619 DEBUG main [org.apache.http.wire]wire(line:78)<< "HTTP/1.1 200 [EOL]"
+2020-08-13 16:16:24,624 DEBUG main [org.apache.http.wire]wire(line:78)<< "Content-Type: application/json[EOL]"
+2020-08-13 16:16:24,624 DEBUG main [org.apache.http.wire]wire(line:78)<< "Transfer-Encoding: chunked[EOL]"
+2020-08-13 16:16:24,625 DEBUG main [org.apache.http.wire]wire(line:78)<< "Date: Thu, 13 Aug 2020 08:16:24 GMT[EOL]"
+2020-08-13 16:16:24,625 DEBUG main [org.apache.http.wire]wire(line:78)<< "Keep-Alive: timeout=60[EOL]"
+2020-08-13 16:16:24,626 DEBUG main [org.apache.http.wire]wire(line:78)<< "Connection: keep-alive[EOL]"
+2020-08-13 16:16:24,626 DEBUG main [org.apache.http.wire]wire(line:78)<< "[EOL]"
+2020-08-13 16:16:24,627 DEBUG main [org.apache.http.impl.conn.DefaultClientConnection]receiveResponseHeader(line:235)Receiving response: HTTP/1.1 200 
+2020-08-13 16:16:24,627 DEBUG main [org.apache.http.headers]receiveResponseHeader(line:238)<< HTTP/1.1 200 
+2020-08-13 16:16:24,628 DEBUG main [org.apache.http.headers]receiveResponseHeader(line:241)<< Content-Type: application/json
+2020-08-13 16:16:24,628 DEBUG main [org.apache.http.headers]receiveResponseHeader(line:241)<< Transfer-Encoding: chunked
+2020-08-13 16:16:24,629 DEBUG main [org.apache.http.headers]receiveResponseHeader(line:241)<< Date: Thu, 13 Aug 2020 08:16:24 GMT
+2020-08-13 16:16:24,629 DEBUG main [org.apache.http.headers]receiveResponseHeader(line:241)<< Keep-Alive: timeout=60
+2020-08-13 16:16:24,629 DEBUG main [org.apache.http.headers]receiveResponseHeader(line:241)<< Connection: keep-alive
+2020-08-13 16:16:24,636 DEBUG main [org.apache.http.impl.client.DefaultHttpClient]execute(line:538)Connection can be kept alive for 60000 ms
+2020-08-13 16:16:24,642 DEBUG main [org.apache.http.wire]wire(line:78)<< "6b[EOL]"
+2020-08-13 16:16:24,643 DEBUG main [org.apache.http.wire]wire(line:78)<< "{"name":"aaa","age":111,"add":[{"id":1,"name":"[0xe5][0xb0][0x8f][0xe9][0x9f][0xa9]"},{"id":2,"name":"[0xe5][0xb0][0x8f][0xe9][0x87][0x8c]"},{"id":3,"name":"[0xe5][0xb0][0x8f][0xe5][0xb2][0x81]"}]}"
+2020-08-13 16:16:24,643 DEBUG main [org.apache.http.wire]wire(line:78)<< "[EOL]"
+2020-08-13 16:16:24,644 DEBUG main [org.apache.http.wire]wire(line:78)<< "0[EOL]"
+2020-08-13 16:16:24,644 DEBUG main [org.apache.http.wire]wire(line:78)<< "[EOL]"
+2020-08-13 16:16:24,645 DEBUG main [org.apache.http.impl.conn.SingleClientConnManager]releaseConnection(line:250)Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@11c20519
+2020-08-13 16:17:15,601 DEBUG main [org.apache.http.impl.conn.SingleClientConnManager]getConnection(line:195)Get connection for route HttpRoute[{}->http://localhost:8080]
+2020-08-13 16:17:15,706 DEBUG main [org.apache.http.client.protocol.RequestAddCookies]process(line:131)CookieSpec selected: best-match
+2020-08-13 16:17:15,719 DEBUG main [org.apache.http.impl.client.DefaultHttpClient]execute(line:481)Attempt 1 to execute request
+2020-08-13 16:17:15,719 DEBUG main [org.apache.http.impl.conn.DefaultClientConnection]sendRequestHeader(line:250)Sending request: POST /test HTTP/1.1
+2020-08-13 16:17:15,720 DEBUG main [org.apache.http.wire]wire(line:78)>> "POST /test HTTP/1.1[EOL]"
+2020-08-13 16:17:15,724 DEBUG main [org.apache.http.wire]wire(line:78)>> "Content-Length: 17[EOL]"
+2020-08-13 16:17:15,725 DEBUG main [org.apache.http.wire]wire(line:78)>> "Content-Type: application/x-www-form-urlencoded; charset=utf-8[EOL]"
+2020-08-13 16:17:15,726 DEBUG main [org.apache.http.wire]wire(line:78)>> "Host: localhost:8080[EOL]"
+2020-08-13 16:17:15,726 DEBUG main [org.apache.http.wire]wire(line:78)>> "Connection: Keep-Alive[EOL]"
+2020-08-13 16:17:15,727 DEBUG main [org.apache.http.wire]wire(line:78)>> "User-Agent: Apache-HttpClient/4.0.2 (java 1.5)[EOL]"
+2020-08-13 16:17:15,727 DEBUG main [org.apache.http.wire]wire(line:78)>> "Expect: 100-continue[EOL]"
+2020-08-13 16:17:15,727 DEBUG main [org.apache.http.wire]wire(line:78)>> "[EOL]"
+2020-08-13 16:17:15,728 DEBUG main [org.apache.http.headers]sendRequestHeader(line:254)>> POST /test HTTP/1.1
+2020-08-13 16:17:15,729 DEBUG main [org.apache.http.headers]sendRequestHeader(line:257)>> Content-Length: 17
+2020-08-13 16:17:15,734 DEBUG main [org.apache.http.headers]sendRequestHeader(line:257)>> Content-Type: application/x-www-form-urlencoded; charset=utf-8
+2020-08-13 16:17:15,735 DEBUG main [org.apache.http.headers]sendRequestHeader(line:257)>> Host: localhost:8080
+2020-08-13 16:17:15,735 DEBUG main [org.apache.http.headers]sendRequestHeader(line:257)>> Connection: Keep-Alive
+2020-08-13 16:17:15,736 DEBUG main [org.apache.http.headers]sendRequestHeader(line:257)>> User-Agent: Apache-HttpClient/4.0.2 (java 1.5)
+2020-08-13 16:17:15,737 DEBUG main [org.apache.http.headers]sendRequestHeader(line:257)>> Expect: 100-continue
+2020-08-13 16:17:15,747 DEBUG main [org.apache.http.wire]wire(line:78)<< "HTTP/1.1 100 [EOL]"
+2020-08-13 16:17:15,751 DEBUG main [org.apache.http.wire]wire(line:78)<< "[EOL]"
+2020-08-13 16:17:15,751 DEBUG main [org.apache.http.impl.conn.DefaultClientConnection]receiveResponseHeader(line:235)Receiving response: HTTP/1.1 100 
+2020-08-13 16:17:15,752 DEBUG main [org.apache.http.headers]receiveResponseHeader(line:238)<< HTTP/1.1 100 
+2020-08-13 16:17:15,752 DEBUG main [org.apache.http.wire]wire(line:78)>> "name=xxxx&age=122"
+2020-08-13 16:17:15,754 DEBUG main [org.apache.http.wire]wire(line:78)<< "HTTP/1.1 200 [EOL]"
+2020-08-13 16:17:15,755 DEBUG main [org.apache.http.wire]wire(line:78)<< "Content-Type: application/json[EOL]"
+2020-08-13 16:17:15,755 DEBUG main [org.apache.http.wire]wire(line:78)<< "Transfer-Encoding: chunked[EOL]"
+2020-08-13 16:17:15,756 DEBUG main [org.apache.http.wire]wire(line:78)<< "Date: Thu, 13 Aug 2020 08:17:15 GMT[EOL]"
+2020-08-13 16:17:15,756 DEBUG main [org.apache.http.wire]wire(line:78)<< "Keep-Alive: timeout=60[EOL]"
+2020-08-13 16:17:15,757 DEBUG main [org.apache.http.wire]wire(line:78)<< "Connection: keep-alive[EOL]"
+2020-08-13 16:17:15,757 DEBUG main [org.apache.http.wire]wire(line:78)<< "[EOL]"
+2020-08-13 16:17:15,758 DEBUG main [org.apache.http.impl.conn.DefaultClientConnection]receiveResponseHeader(line:235)Receiving response: HTTP/1.1 200 
+2020-08-13 16:17:15,758 DEBUG main [org.apache.http.headers]receiveResponseHeader(line:238)<< HTTP/1.1 200 
+2020-08-13 16:17:15,759 DEBUG main [org.apache.http.headers]receiveResponseHeader(line:241)<< Content-Type: application/json
+2020-08-13 16:17:15,759 DEBUG main [org.apache.http.headers]receiveResponseHeader(line:241)<< Transfer-Encoding: chunked
+2020-08-13 16:17:15,759 DEBUG main [org.apache.http.headers]receiveResponseHeader(line:241)<< Date: Thu, 13 Aug 2020 08:17:15 GMT
+2020-08-13 16:17:15,759 DEBUG main [org.apache.http.headers]receiveResponseHeader(line:241)<< Keep-Alive: timeout=60
+2020-08-13 16:17:15,760 DEBUG main [org.apache.http.headers]receiveResponseHeader(line:241)<< Connection: keep-alive
+2020-08-13 16:17:15,771 DEBUG main [org.apache.http.impl.client.DefaultHttpClient]execute(line:538)Connection can be kept alive for 60000 ms
+2020-08-13 16:17:15,781 DEBUG main [org.apache.http.wire]wire(line:78)<< "6c[EOL]"
+2020-08-13 16:17:15,781 DEBUG main [org.apache.http.wire]wire(line:78)<< "{"name":"xxxx","age":122,"add":[{"id":1,"name":"[0xe5][0xb0][0x8f][0xe9][0x9f][0xa9]"},{"id":2,"name":"[0xe5][0xb0][0x8f][0xe9][0x87][0x8c]"},{"id":3,"name":"[0xe5][0xb0][0x8f][0xe5][0xb2][0x81]"}]}"
+2020-08-13 16:17:15,782 DEBUG main [org.apache.http.wire]wire(line:78)<< "[EOL]"
+2020-08-13 16:17:15,782 DEBUG main [org.apache.http.wire]wire(line:78)<< "0[EOL]"
+2020-08-13 16:17:15,783 DEBUG main [org.apache.http.wire]wire(line:78)<< "[EOL]"
+2020-08-13 16:17:15,783 DEBUG main [org.apache.http.impl.conn.SingleClientConnManager]releaseConnection(line:250)Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@3ffcd140
+2020-08-19 18:42:01,544 INFO main [com.yyc.EleTest]main(line:32)aaaa
+2020-08-19 18:42:01,559 DEBUG main [com.yyc.EleTest]main(line:34)bbbb
+2020-08-19 18:42:01,559 ERROR main [com.yyc.EleTest]main(line:36)cccc

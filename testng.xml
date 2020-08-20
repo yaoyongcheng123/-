@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+  <test name="webDriverFrame">
+    <classes>
+      <class name="com.yyc.EleTest">
+        <methods>
+        </methods>
+      </class> <!-- com.yyc.EleTest -->
+    </classes>
+  </test> <!-- webDriverFrame -->
+</suite> <!-- Default Suite -->
