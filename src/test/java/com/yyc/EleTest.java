@@ -20,9 +20,9 @@ public class EleTest {
     @Test
     public void indexCase01(){
         WebDriver driver = DriverServer.getDriver("chrome");
-        driver.get("file:///C:/Users/Administrator/Desktop/selenium_html/index.html");
-        IndexServer.sendText(EleIndex.INPUT,"哈哈哈！！");
-        Snapshot.snapshot(MathRandom.getRandName());
+//        driver.get("file:///C:/Users/Administrator/Desktop/selenium_html/index.html");
+//        IndexServer.sendText(EleIndex.INPUT,"哈哈哈！！");
+//        Snapshot.snapshot(MathRandom.getRandName());
         Asserts.assertEquals("122","122");
     }
 
